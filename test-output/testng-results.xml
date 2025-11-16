@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-25T10:58:24 IST" name="Suite" finished-at="2025-05-25T10:58:24 IST" duration-ms="85">
+    <groups>
+      <group name="Smoke">
+        <method signature="DayNo3.WebLoginCarLoan()[pri:0, instance:com.testNG.Practice.DayNo3@38425407]" name="WebLoginCarLoan" class="com.testNG.Practice.DayNo3"/>
+        <method signature="DayNo4.MobileLoginHomeLoan(java.lang.String)[pri:0, instance:com.testNG.Practice.DayNo4@22ff4249]" name="MobileLoginHomeLoan" class="com.testNG.Practice.DayNo4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-05-25T10:58:24 IST" name="dependsonMethosExecution" finished-at="2025-05-25T10:58:24 IST" duration-ms="85">
+      <class name="com.testNG.Practice.DayNo3">
+        <test-method is-config="true" signature="befoClass()[pri:0, instance:com.testNG.Practice.DayNo3@38425407]" started-at="2025-05-25T10:58:24 IST" name="befoClass" finished-at="2025-05-25T10:58:24 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befoClass -->
+        <test-method signature="MobileLoginCarLoan()[pri:0, instance:com.testNG.Practice.DayNo3@38425407]" started-at="2025-05-25T10:58:24 IST" name="MobileLoginCarLoan" finished-at="2025-05-25T10:58:24 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method signature="WebLoginCarLoan()[pri:0, instance:com.testNG.Practice.DayNo3@38425407]" started-at="2025-05-25T10:58:24 IST" name="WebLoginCarLoan" finished-at="2025-05-25T10:58:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method signature="ApILoginCarLoan()[pri:0, instance:com.testNG.Practice.DayNo3@38425407]" started-at="2025-05-25T10:58:24 IST" name="ApILoginCarLoan" finished-at="2025-05-25T10:58:24 IST" depends-on-methods="com.testNG.Practice.DayNo3.MobileLoginCarLoan" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApILoginCarLoan -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testNG.Practice.DayNo3@38425407]" started-at="2025-05-25T10:58:24 IST" name="afterClass" finished-at="2025-05-25T10:58:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testNG.Practice.DayNo3 -->
+      <class name="com.testNG.Practice.DayNo4">
+        <test-method signature="MobileLoginHomeLoan(java.lang.String)[pri:0, instance:com.testNG.Practice.DayNo4@22ff4249]" started-at="2025-05-25T10:58:24 IST" name="MobileLoginHomeLoan" finished-at="2025-05-25T10:58:24 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method signature="PrintData(java.lang.String,java.lang.String)[pri:0, instance:com.testNG.Practice.DayNo4@22ff4249]" started-at="2025-05-25T10:58:24 IST" name="PrintData" data-provider="getData" finished-at="2025-05-25T10:58:24 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arun@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintData -->
+        <test-method signature="PrintData(java.lang.String,java.lang.String)[pri:0, instance:com.testNG.Practice.DayNo4@22ff4249]" started-at="2025-05-25T10:58:24 IST" name="PrintData" data-provider="getData" finished-at="2025-05-25T10:58:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kavya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kavya@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintData -->
+        <test-method signature="PrintData(java.lang.String,java.lang.String)[pri:0, instance:com.testNG.Practice.DayNo4@22ff4249]" started-at="2025-05-25T10:58:24 IST" name="PrintData" data-provider="getData" finished-at="2025-05-25T10:58:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raksh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raksh@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintData -->
+        <test-method signature="WebLoginHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:com.testNG.Practice.DayNo4@22ff4249]" started-at="2025-05-25T10:58:24 IST" name="WebLoginHomeLoan" finished-at="2025-05-25T10:58:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+      </class> <!-- com.testNG.Practice.DayNo4 -->
+    </test> <!-- dependsonMethosExecution -->
+  </suite> <!-- Suite -->
+</testng-results>
